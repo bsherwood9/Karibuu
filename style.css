@@ -46,7 +46,8 @@ h1 {
     font-size: 14px;
 }
 #navbarSupportedContent{
-    background: rgba(255, 255, 255, 0.15);;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
 }
 .nav-link:hover{
     background: rgba(255, 255, 255, 0.15);
