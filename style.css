@@ -151,10 +151,10 @@ hr {
 }
 
 .box:hover {
-    -webkit-box-shadow: rotate(-7deg);
-    -moz-box-shadow:rotate(-7deg);
-    -o-box-shadow:rotate(-7deg);
-    transform: rotate(-7deg);
+    -webkit-box-shadow: rotate(-4deg);
+    -moz-box-shadow:rotate(-4deg);
+    -o-box-shadow:rotate(-4deg);
+    transform: rotate(-4deg);
 }
 .grid-wrapper {
     background: white;
