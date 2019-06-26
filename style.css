@@ -174,10 +174,10 @@ hr {
 }
 
 .foot{
- border: top solid 5px;
+    border-top: solid 1px rgba(255, 255, 255, .5);
     padding: 1.5rem;
     background: black;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
 }
 .rando:hover{
     z-index: 0;
