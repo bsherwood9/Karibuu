@@ -17,6 +17,7 @@
   </head>
   <body>
     <header>
+      <!-- nav bar -->
       <nav class="container navbar navbar-dark navbar-expand-lg fixed-top">
         <a class="navbar-brand" id="logo" href="#">KariBuu</a>
 
@@ -43,14 +44,24 @@
                 Portfolio
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://bsherwood9.github.io/colorGame/">The Great RGB Color Game</a>
-                <a class="dropdown-item" href="https://bsherwood9.github.io/gradientproject.github.io/">Gradient Background Generator</a>
+                <a
+                  onclick="openInNewTab('https://bsherwood9.github.io/colorGame/')"
+                  class="dropdown-item"
+                  href="#"
+                  >The Great RGB Color Game</a
+                >
+                <a
+                  onclick="openInNewTab('https://bsherwood9.github.io/gradientproject.github.io/')"
+                  class="dropdown-item"
+                  href="#"
+                  >Gradient Background Generator</a
+                >
               </div>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#AboutMe">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#signup">Subscribe</a>
@@ -120,42 +131,55 @@
         <!--End mc_embed_signup-->
       </section>
     </header>
-    <div class="grad"></div>
     <div class="main">
-      <!-- About section -->
-      <!-- <div class="about-section">
-        <img
-          class="img-fluid img-hover"
-          id="nightEarth"
-          src="space.jpeg"
-          alt="Earth at Night"
-        />
-      </div> -->
+  
       <Section class="container">
-          <h1>Interests</h1>
-          <div class="zone blue grid-wrapper">
-              <div class="box zone"><img src="./photos/soccer.jpg"></div>
-              <div class="box zone"><img src="./photos/books.jpg"></div>
-              <div class="box zone"><img src="./photos/food.jpg"></div>
-              <div class="box zone"><img src="./photos/farm.jpg"></div>
-              <div class="box zone"><img src="./photos/controller.jpg"></div>
-              <div class="box zone"><img src="./photos/codingPic.jpg"></div>
-              <div class="box zone"><img src="./photos/space.jpeg"></div>
-              <div class="box zone"><img src="./photos/camping2.jpg"></div>
-              <div class="box zone"><img src="./photos/travel.jpg"></div>
-              
-            </div>
-        </Section>
+        <h1>Interests</h1>
+        <div class="zone blue grid-wrapper">
+          <div class="box zone rando"><img src="./photos/soccer.jpg" /></div>
+          <div class="box zone rando"><img src="./photos/books.jpg" /></div>
+          <div class="box zone rando"><img src="./photos/food.jpg" /></div>
+          <div class="box zone rando"><img src="./photos/farm.jpg" /></div>
+          <div class="box zone rando">
+            <img src="./photos/controller.jpg" />
+          </div>
+          <div class="box zone rando"><img src="./photos/codingPic.jpg" /></div>
+          <div class="box zone rando"><img src="./photos/space.jpeg" /></div>
+          <div class="box zone rando"><img src="./photos/camping2.jpg" /></div>
+          <div class="box zone rando"><img src="./photos/travel.jpg" /></div>
+        </div>
+      </Section>
     </div>
-    <!-- footer -->
+
+    <!-- <div id="gradient">
+      </div> -->
+    <!-- about me -->
+    <section class="flex-container stars"> 
+  
+    <div class="me-container">
+      <div id="AboutMe">
+        <div>
+          <h1>About Me</h1>
+          <p id="blurb">
+            I'm a avid reader, gamer, soccer player, Liverpool fan, husband.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img id="traveler" src="./photos/travel.jpg_" alt="Traveling!" />
+      </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer id="main-footer" class="foot">
-            <div class="container">
-              <p class="text-center">
-                Copyright &copy; 2019 | KariBuu Creations by Brett Sherwood | All Rights Reserved
-              </p>
-            </div>
-          </footer>
+      <div class="container">
+        <p class="center">
+          Copyright &copy; 2019 | KariBuu Creations by Brett Sherwood | All
+          Rights Reserved
+        </p>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -171,5 +195,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
