@@ -26,7 +26,7 @@ h1 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; */
  } 
- center {
+ .center {
     text-align: center;
   }
 .navbar{
@@ -66,9 +66,11 @@ h1 {
 .flex-container{
     height: 800px;
     display: flex;
+    padding-bottom: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0,0,0, .2) 90%, rgb(0, 0, 0) 100%) repeat scroll 0 0;
 }
 hr {
     width: 400px;
@@ -159,21 +161,22 @@ hr {
     transform: rotate(-4deg);
 } */
 .grid-wrapper {
-    background: white;
     display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     padding: 0 7px 5px 0;
 }
 .main {
     background: black;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
+    
 }
 
 .foot{
+ border: top solid 5px;
     padding: 1.5rem;
-    background: #333;
+    background: black;
     color: #fff;
 }
 .rando:hover{
@@ -242,10 +245,9 @@ hr {
 }
 
 .stars {
-    height: auto;
-    background-image: url(./photos/stars.jpg);
-    background:linear-gradient(top,rgba(0,0,0,1),0%,rgba(255,255,255,1),90%);
-    margin-top: -30px;
+    height:600px;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)), url(./photos/stars.jpg);
+    margin-top: 0;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
